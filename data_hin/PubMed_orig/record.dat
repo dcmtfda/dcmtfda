@@ -1,0 +1,21 @@
+
+model=metapath2vec-ESim, task=nc, attributed=False, supervised=False
+size=50, negative=5, samples=1.00M, iters=500, alpha=0.025000
+Macro-F1=0.1085, Micro-F1=0.1259
+
+model=metapath2vec-ESim, task=lp, attributed=False, supervised=False
+size=50, negative=5, samples=1.00M, iters=500, alpha=0.025000
+AUC=0.6573, MRR=0.8299
+
+model=HIN2Vec, task=nc, attributed=False, supervised=False
+size=50, alpha=0.025, windows=3, negative=5, walk_num=10, walk_len=100
+Macro-F1=0.0891, Micro-F1=0.1390
+
+model=HIN2Vec, task=lp, attributed=False, supervised=False
+size=50, alpha=0.025, windows=3, negative=5, walk_num=10, walk_len=100
+AUC=0.7952, MRR=0.9502
+
+
+------------------------
+
+

@@ -1,0 +1,12 @@
+
+model=HIN2Vec, task=nc, attributed=False, supervised=False
+size=50, alpha=0.025, windows=3, negative=5, walk_num=10, walk_len=100
+Macro-F1=0.1224, Micro-F1=0.1655
+
+model=HIN2Vec, task=lp, attributed=False, supervised=False
+size=50, alpha=0.025, windows=3, negative=5, walk_num=10, walk_len=100
+AUC=0.8156, MRR=0.9525
+
+---
+
+
